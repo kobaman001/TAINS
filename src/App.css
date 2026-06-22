@@ -121,6 +121,38 @@ body {
   30% { transform: translateY(-6px); }
 }
 
+/* Suggestions */
+.suggestions {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #e8eaed;
+  background: #fff;
+  max-height: 140px;
+  overflow-y: auto;
+}
+
+.suggestion-item {
+  text-align: left;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 16px;
+  font-size: 13px;
+  color: #1976d2;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.suggestion-item:hover {
+  background: #e3f2fd;
+}
+
+.suggestion-item::before {
+  content: '🔍 ';
+}
+
 .chat-footer {
   display: flex;
   align-items: flex-end;
