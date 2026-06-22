@@ -85,10 +85,11 @@ export default function ChatBot() {
     <div className="chatbot-container">
       <header className="chat-header">
         <span className="header-icon">🤖</span>
-        <div>
+        <div style={{ flex: 1 }}>
           <div className="header-title">TAINSカスタマーサポート</div>
           <div className="header-status">オンライン</div>
         </div>
+        <a href="#/admin" className="admin-link">管理画面</a>
       </header>
 
       <div className="chat-body">

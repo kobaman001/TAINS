@@ -194,3 +194,16 @@ body {
 
 .send-button:hover:not(:disabled) { background: #1565c0; }
 .send-button:disabled { background: #b0bec5; cursor: not-allowed; }
+
+/* Admin link in chat header */
+.admin-link {
+  font-size: 12px;
+  color: rgba(255,255,255,0.75);
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,0.4);
+  padding: 4px 10px;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.admin-link:hover { background: rgba(255,255,255,0.15); color: #fff; }
