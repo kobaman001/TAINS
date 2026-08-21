@@ -89,7 +89,6 @@ export default function ChatBot() {
           <div className="header-title">TAINSカスタマーサポート</div>
           <div className="header-status">オンライン</div>
         </div>
-        <a href="#/line-post" className="admin-link">LINE配信文</a>
         <a href="#/admin" className="admin-link">管理画面</a>
       </header>
 
